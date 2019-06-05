@@ -24,7 +24,7 @@ void gaussLegendre(){
 }
 
 
-void borwein(){
+void borwein(){//https://en.wikipedia.org/wiki/Borwein%27s_algorithm
   
 
 }
