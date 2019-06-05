@@ -25,7 +25,7 @@ void gaussLegendre(){
 
 
 void borwein(){//https://en.wikipedia.org/wiki/Borwein%27s_algorithm
-  
+      //Esse algoritmo não é altamente paralelizavel, então vai ser feito com apenas duas trhreads msm, só para calcular as parcelas dentro da iteração, porém, a iteração em si, só pode ser feita sequencialmente, já que um resultado depende do reaultado anterior.
 
 }
 
