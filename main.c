@@ -1,9 +1,17 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include "pi.h"
 
 
 int main(){
-  printf("ola mundo");
-  //Aqui a gente tem que chamar as funções para fazer a análise toda
+	mpf_t  var;
+
+	Borwein(1000,1,1000000,var);
+
+	gmp_printf ("%.*Ff", 10000, var);//https://gmplib.org/manual/Formatted-Output-Strings.html
 
 
+	return 0;
 }
+
+
